@@ -12,4 +12,4 @@
 - 远端配置SSH key：打开github远端，【Settings】【SSH and GPG key】【New SSH key】，ttile建议填入邮箱，key则粘贴之前生成的id_rsa.pub文件的全部内容
 - 检测：`ssh -T git@github.com`，提示【Hi username! You’ve successfully authenticated, but GitHub does not provide shell access.】则成功
 - 设置用户名：`git config --global user.name "XXX"`
-- 设置邮箱：`git config --global user.email "zhang.xun@hwtongli.com"`
+- 设置邮箱：`git config --global user.email "XXX"`
