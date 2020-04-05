@@ -1,2 +1,3 @@
 # GitBook
-开发相关的笔记
+
+使用GitBook记录的笔记
