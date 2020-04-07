@@ -21,3 +21,8 @@
 - [参考](https://stackoverflow.com/questions/54175042/python-3-7-anaconda-environment-import-ssl-dll-load-fail-error)
 - 原因：没有为pycharm添加环境变量
 - 解决： 命令行输入`echo %PATH%`得到环境变量，然后pycharm -->setting-->Build, Execution, Deployment -> Console -> Python Console -> 右侧的Environment variables添加环境变量，变量名是`PATH`，值是`echo %PATH%`得到的环境变量
+
+## 报错找不到conda，但anaconda和python好使
+
+- 原因：conda损坏
+- 解决：卸载anaconda重装

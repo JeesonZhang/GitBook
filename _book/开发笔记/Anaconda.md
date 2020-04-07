@@ -16,7 +16,7 @@
 
 - 下载：由于官网网速原因，推荐从[清华镜像源](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)进行下载，直接下载最新的64位`.sh`文件
 - 安装：`.sh`运行sh格式的安装文件，按回车阅读协议，回复`yes`同意协议，对话出现环境变量提示，回复`yes`
-- 初始化conda：`source ~/.bashrc`
+- 激活conda：`source ~/.bashrc`
 - 检测：`conda -V`显示conda版本
 - 设置环境变量：`export PATH=anaconda目录/bin:$PATH`（例如：`export PATH=/home/jeeson/anaconda3/bin:$PATH`）
 - 检测：`anaconda -V`显示anaconda版本

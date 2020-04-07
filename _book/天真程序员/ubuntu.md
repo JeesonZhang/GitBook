@@ -43,6 +43,7 @@
   - 安装搜狗输入法的deb包
   - 再打开【管理已安装的语言】，按提示安装缺失的语言字体，【键盘输入法系统】选择fcitx，**注意**：需将搜狗拼音放在第二位，否则会出现选字栏乱码的现象
   - reboot重启
+  - 中文状态下打出的英文空格太大：shift + space切换到半圆角
 - shadowsockes-qt5(需要服务器地址)
   - 添加源：`add-apt-repository ppa:hzwhuang/ss-qt5`
   - 修改源的发行版：打开【软件和更新】–>【其他软件】,找到`http://ppa.launchpad.net/hzwhuang/ss-qt5/ubuntu bionic Release`-->【编辑】，将发行版从 bionic改为artful
