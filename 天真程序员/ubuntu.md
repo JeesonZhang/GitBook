@@ -72,4 +72,4 @@
 
 - 多任务：win键
 - 终端：ctrl+alt+t
-- 回到桌面：ctrl + alt + d
+- 回到桌面：win+d / ctrl + alt + d

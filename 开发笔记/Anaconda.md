@@ -27,7 +27,8 @@
 
 - 由于官网网速原因，一般会使用国内的包源，源相当于包的远程应用商店
 - 查看包源列表：`conda config --show channels`
-- 添加镜像源：`conda config --add channels 源地址`（添加清华镜像源：`conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/`）
+- 添加镜像源：`conda config --add channels 源地址`（添加清华镜像源：`conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/`）
+- 设置搜索时显示通道地址：`conda config --set show_channel_urls yes`
 - 删除指定包源：`conda config --remove channels 源地址`
 - 删除自己添加的包源：`conda config --remove-key channels`
 
@@ -39,10 +40,10 @@
   - 在指定路径创建新的环境：`conda create --prefix=路径\环境名 python=版本`
 - 删除环境：`conda remove -n 环境名 --all`
 - 启动环境：
-  - Linux、Mac：`source activate 环境名`
+  - Linux、Mac：`conda activate 环境名`
   - Windows：`activate 环境名`
 - 关闭环境:
-  - Linux、Mac：`source deactivate 环境名`
+  - Linux、Mac：`conda deactivate 环境名`
   - Windows：`deactivate 环境名`
 
 ### 包管理
