@@ -11,6 +11,8 @@
   - [VScode](常用工具/VScode.md)
 
 - [错误本](错误本/README.md)
+  - [Linux](错误本/Linux.md)
+  - [Anaconda](错误本/Anaconda.md)
   - [Maven](错误本/Maven.md)
 
 - [天真程序员](天真程序员/README.md)
