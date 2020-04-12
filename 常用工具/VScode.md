@@ -22,3 +22,5 @@
 
 - 插件搜索下载Maven for Java
 - 设置搜索maven
+- 填入maven的settings.xml文件，或者settings.json中配置
+  ```"java.configuration.maven.userSettings": "/usr/share/maven/conf/settings.xml"```
