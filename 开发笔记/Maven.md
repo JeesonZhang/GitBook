@@ -4,17 +4,15 @@
 
 - 介绍：Maven是jar包管理工具
 
-## 下载安装
-
-### Windows
+## 安装-win
 
 - 下载：[官网](https://maven.apache.org/download.cgi)直接下载binary.zip（**注:3.6.2和idea可能会有兼容问题，因此推荐下载[3.6.1](http://apache.mirror.amaze.com.au/maven/maven-3/)**）
 - 安装：配置环境变量（Path:maven目录/bin）
 - 检测：cmd键入`maven -v`显示版本则成功
 
-### Linux
+### 安装-Linux
 
-- 下载：`apt install maven`
+- 下载：`yum install maven`
 - 检测：`mvn -v`显示版本则成功
 
 ## 基本配置
