@@ -21,9 +21,9 @@
   - 配置本地仓库位置
 
     ```xml
+    <!-- 本地仓库位置 -->
     <settings>
-      <!-- 本地仓库位置 -->
-      <localRepository>D:\m2\repo</localRepository>
+      <localRepository>C:\Maven\m2\repo</localRepository>
     </settings>
     ```
 

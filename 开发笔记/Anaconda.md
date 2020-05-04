@@ -19,6 +19,14 @@
 - 检测：`conda -V`显示conda版本
 - 设置环境变量：`export PATH=anaconda目录/bin:$PATH`（例如：`export PATH=/home/jeeson/anaconda3/bin:$PATH`）
 - 检测：`anaconda -V`显示anaconda版本
+- 添加清华镜像
+
+  ```bash
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda
+  conda config --set show_channel_urls yes
+  ```
 
 ## anaconda常用命令
 
