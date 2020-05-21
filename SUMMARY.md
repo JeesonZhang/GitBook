@@ -10,6 +10,7 @@
 
 - [常用工具](常用工具/README.md)
   - [VScode](常用工具/VScode.md)
+  - [IDEA](常用工具/IDEA.md)
 
 - [常用模板](常用模板/README.md)
   - [需求文档](常用模板/需求文档.md)

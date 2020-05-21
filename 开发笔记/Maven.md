@@ -18,7 +18,7 @@
 ## 基本配置
 
 - 配置`maven目录\conf\settings.xml`
-  - 配置本地仓库位置
+  - 配置本地仓库位置：注意文件分割符的方向
 
     ```xml
     <!-- 本地仓库位置 -->
@@ -40,12 +40,6 @@
      </mirror>
     </mirrors>
     ```
-
-- IDEA配置默认maven
-  - 【File】-->【Other Settings】-->【Default Settings】-->搜索【Maven】
-  - 【Maven home directory】选择Maven安装目录
-  - 【User settings file】点击【Override】，选择自己下载的maven的settings.xml
-  - 【Local Repository】选择自己配置的本地仓库，点击【Apply】
 
 ## pom.xml解读
 
