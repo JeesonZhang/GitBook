@@ -1,8 +1,6 @@
 # Anaconda
 
-## 安装
-
-### Windows下
+## 安装-win
 
 - 下载：官网慢，可从[清华镜像源](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)进行下载
 - 安装：运行安装程序，中途勾选【添加环境变量】（**注意中途会出现一个黑色的对话框，切记不要关闭，否则会没有jupyter等软件**）
@@ -11,8 +9,9 @@
   - 添加Anaconda目录即可使用python
   - 添加Anaconda\Scripts目录即可使用conda命令（此时仅可使用`conda --version`命令）
   - 添加【Anaconda3\Library\bin】和【Anaconda3\Library\mingw-w64\bin】后即可使用其他conda命令
+  - 推荐做法：创建ANACONDA_HOME变量，值为`Anaconda`目录，然后对应添加该变量及其变量下的`Script`和`Library\bin`
 
-### Linux下
+## 安装-Linux
 
 - 下载：由于官网网速原因，推荐从[清华镜像源](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)进行下载，直接下载最新的64位`.sh`文件
 - 安装：`.sh`运行sh格式的安装文件，按回车阅读协议，回复`yes`同意协议，对话出现环境变量提示，回复`yes`
@@ -20,6 +19,14 @@
 - 检测：`conda -V`显示conda版本
 - 设置环境变量：`export PATH=anaconda目录/bin:$PATH`（例如：`export PATH=/home/jeeson/anaconda3/bin:$PATH`）
 - 检测：`anaconda -V`显示anaconda版本
+- 添加清华镜像
+
+  ```bash
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+  conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda
+  conda config --set show_channel_urls yes
+  ```
 
 ## anaconda常用命令
 
