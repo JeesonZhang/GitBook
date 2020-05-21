@@ -19,3 +19,22 @@
 - 检测：`ssh -T git@github.com`，提示【Hi username! You’ve successfully authenticated, but GitHub does not provide shell access.】则成功
 - 设置用户名：`git config --global user.name "XXX"`
 - 设置邮箱：`git config --global user.email "XXX"`
+
+## 命令
+
+### 撤销
+
+- 撤销修改：`git checkout -- XXX`
+  - `.`：所有文件
+- 撤销add（从缓存撤销到工作区）：`git reset XXXX`，不指定则撤销所有
+- 撤销commit：`git reset HEAD^`
+  - HEAD^ 指上一次commit，等价于 HEAD~1，如果撤销后n次commit，则为 HEAD~n
+  - `--soft`：撤销commit
+  - `--mixed`（默认）：撤销commit和add
+  - `--hard`：撤销commit和add，并删除修改的代码
+
+### 分支管理
+
+- 查看分支：`git branch`
+  - `-a` 查看所有分支（包括远程）
+- 新建本地分支：`git checkout -b XXX`
