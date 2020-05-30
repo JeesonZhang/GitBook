@@ -1,6 +1,8 @@
 # SUMMARY
 
 - [开发笔记](开发笔记/README.md)
+  - [Linux](开发笔记/Linux.md)
+  - [MySQL](开发笔记/MySQL.md)
   - [Git](开发笔记/Git.md)
   - [GitBook](开发笔记/GitBook.md)
   - [Anaconda](开发笔记/Anacoda.md)
