@@ -9,6 +9,7 @@
   - [Java](开发笔记/Java.md)
   - [Python](开发笔记/Python.md)
   - [Maven](开发笔记/Maven.md)
+  - [Supervisor](开发笔记/Supervisor.md)
   - [爬虫](开发笔记/爬虫.md)
 
 - [常用工具](常用工具/README.md)
