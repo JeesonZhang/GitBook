@@ -1,4 +1,4 @@
-# linux
+# Linux
 
 ## 查看硬件信息
 
@@ -21,3 +21,15 @@
 - 查看系统环境变量：`echo $PATH`
 - 设置系统环境变量：`export PATH=命令的bin目录`
 - 修改系统环境便令：`exprot PATH=命令的bin目录`
+
+## 服务管理
+
+- 启动某服务：`systemctl start XXX`
+- 重启某服务：`systemctl restart XXX`
+- 重新按配置加载某服务：`systemctl reload XXX`
+- 停止某服务：`systemctl stop XXX`
+- 查看服务状态：`systemctl status XXX`
+- 查看是否开机自启动：`systemctl is-enabled XXX`
+- 开机启动：`systemctl enable XXXX`
+- 禁止开机启动：`systemctl disable XXX`
+- 显示启动失败的服务：`systemctl --failed`
